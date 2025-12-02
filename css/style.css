@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', 'Souge UI', sans-serif;
+    margin: 0;
+    background-color: #d52e2e;
+}
+
+.hero-section {
+    background-image: url(/assets/img/tecnologia.webp);
+    background-size: cover;
+    color: #d52e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 700px;
+}
+
+.hero-tittle {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.hero-subtittle {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: #d52e2e;
+}
+
+.hero-button {
+    background-color: #ffffff;
+    color: #d52e2e;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 15px 30px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.hero-button:hover {
+    background-color: #2ba0da;
+    transform: translateY(-2px);
+
+}
